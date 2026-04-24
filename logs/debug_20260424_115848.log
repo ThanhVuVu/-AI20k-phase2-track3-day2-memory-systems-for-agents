@@ -1,0 +1,4 @@
+2026-04-24 11:58:48,227 - BenchmarkRunner - INFO - Starting Benchmark...
+2026-04-24 11:58:51,613 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 11:58:51,647 - MemoryAgent - INFO - Final Managed Prompt Length: 165 chars
+2026-04-24 11:58:52,555 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"

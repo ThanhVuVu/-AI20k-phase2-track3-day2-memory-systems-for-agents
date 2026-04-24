@@ -1,0 +1,253 @@
+2026-04-24 12:12:47,437 - BenchmarkRunner - INFO - Starting Benchmark...
+2026-04-24 12:12:47,637 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:12:47,646 - MemoryAgent - INFO - Final Managed Prompt Length: 165 chars
+2026-04-24 12:12:48,757 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:12:49,107 - BenchmarkSuite - INFO - [With Memory] Scenario: Profile Recall | Turn: Tên tôi là Thanh Vũ.... -> Resp: Xin chào Thanh Vũ! Tôi rất vui được gặp bạn. Bạn c...
+2026-04-24 12:12:49,107 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:12:49,107 - MemoryAgent - INFO - Final Managed Prompt Length: 315 chars
+2026-04-24 12:12:49,934 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:12:50,132 - BenchmarkSuite - INFO - [With Memory] Scenario: Profile Recall | Turn: Sở thích của tôi là lập trình.... -> Resp: Lập trình là một sở thích thú vị! Bạn đang làm việ...
+2026-04-24 12:12:50,135 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:12:50,136 - MemoryAgent - INFO - Final Managed Prompt Length: 505 chars
+2026-04-24 12:12:50,976 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:12:51,168 - BenchmarkSuite - INFO - [With Memory] Scenario: Profile Recall | Turn: Bạn nhớ tên tôi là gì không?... -> Resp: Tên của bạn là Thanh Vũ. Tôi đã nhớ tên của bạn từ...
+2026-04-24 12:12:51,178 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:12:51,178 - MemoryAgent - INFO - Final Managed Prompt Length: 165 chars
+2026-04-24 12:12:51,871 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:12:52,065 - BenchmarkSuite - INFO - [No Memory] Scenario: Profile Recall | Turn: Tên tôi là Thanh Vũ.... -> Resp: Xin chào Thanh Vũ! Tôi rất vui được biết đến bạn. ...
+2026-04-24 12:12:52,075 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:12:52,076 - MemoryAgent - INFO - Final Managed Prompt Length: 165 chars
+2026-04-24 12:12:52,755 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:12:52,946 - BenchmarkSuite - INFO - [No Memory] Scenario: Profile Recall | Turn: Sở thích của tôi là lập trình.... -> Resp: Lập trình là một công việc thú vị và đầy thách thứ...
+2026-04-24 12:12:52,955 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:12:52,955 - MemoryAgent - INFO - Final Managed Prompt Length: 165 chars
+2026-04-24 12:12:54,069 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:12:54,274 - BenchmarkSuite - INFO - [No Memory] Scenario: Profile Recall | Turn: Bạn nhớ tên tôi là gì không?... -> Resp: Tôi xin lỗi, nhưng tôi không thể nhớ tên của bạn v...
+2026-04-24 12:12:54,282 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:12:54,283 - MemoryAgent - INFO - Final Managed Prompt Length: 165 chars
+2026-04-24 12:12:56,575 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:12:56,797 - BenchmarkSuite - INFO - [With Memory] Scenario: Conflict Update | Turn: Tôi dị ứng sữa bò.... -> Resp: Tôi hiểu rằng bạn dị ứng sữa bò. Điều đó có nghĩa ...
+2026-04-24 12:12:56,797 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:12:56,798 - MemoryAgent - INFO - Final Managed Prompt Length: 815 chars
+2026-04-24 12:12:59,391 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:12:59,608 - BenchmarkSuite - INFO - [With Memory] Scenario: Conflict Update | Turn: À nhầm, tôi dị ứng đậu nành chứ không phải sữa bò.... -> Resp: Nếu bạn dị ứng đậu nành, điều đó có nghĩa là cơ th...
+2026-04-24 12:12:59,609 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:12:59,609 - MemoryAgent - INFO - Final Managed Prompt Length: 1711 chars
+2026-04-24 12:13:00,200 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:13:00,405 - BenchmarkSuite - INFO - [With Memory] Scenario: Conflict Update | Turn: Tôi bị dị ứng với cái gì?... -> Resp: Bạn đã bị dị ứng với sữa bò và sau đó đã xác nhận ...
+2026-04-24 12:13:00,413 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:13:00,413 - MemoryAgent - INFO - Final Managed Prompt Length: 165 chars
+2026-04-24 12:13:03,803 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:13:04,015 - BenchmarkSuite - INFO - [No Memory] Scenario: Conflict Update | Turn: Tôi dị ứng sữa bò.... -> Resp: Nếu bạn dị ứng sữa bò, có một số loại thực phẩm mà...
+2026-04-24 12:13:04,026 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:13:04,026 - MemoryAgent - INFO - Final Managed Prompt Length: 165 chars
+2026-04-24 12:13:05,543 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:13:05,751 - BenchmarkSuite - INFO - [No Memory] Scenario: Conflict Update | Turn: À nhầm, tôi dị ứng đậu nành chứ không phải sữa bò.... -> Resp: Nếu bạn dị ứng đậu nành, có thể bạn sẽ gặp khó khă...
+2026-04-24 12:13:05,761 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:13:05,761 - MemoryAgent - INFO - Final Managed Prompt Length: 165 chars
+2026-04-24 12:13:08,065 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:13:08,297 - BenchmarkSuite - INFO - [No Memory] Scenario: Conflict Update | Turn: Tôi bị dị ứng với cái gì?... -> Resp: Tôi không có thông tin cụ thể về dị ứng của bạn. T...
+2026-04-24 12:13:08,308 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:13:08,309 - MemoryAgent - INFO - Final Managed Prompt Length: 165 chars
+2026-04-24 12:13:09,221 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:13:09,450 - BenchmarkSuite - INFO - [With Memory] Scenario: Episodic Recall | Turn: Hôm qua chúng ta đã cài đặt Docker thành công.... -> Resp: Tôi nhớ lại rằng chúng ta đã cài đặt Docker thành ...
+2026-04-24 12:13:09,452 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:13:09,452 - MemoryAgent - INFO - Final Managed Prompt Length: 393 chars
+2026-04-24 12:13:11,252 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:13:11,446 - BenchmarkSuite - INFO - [With Memory] Scenario: Episodic Recall | Turn: Bạn có nhớ hôm qua chúng ta đã làm gì không?... -> Resp: Tôi nhớ lại rằng hôm qua chúng ta đã cài đặt Docke...
+2026-04-24 12:13:11,453 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:13:11,455 - MemoryAgent - INFO - Final Managed Prompt Length: 165 chars
+2026-04-24 12:13:12,992 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:13:13,197 - BenchmarkSuite - INFO - [No Memory] Scenario: Episodic Recall | Turn: Hôm qua chúng ta đã cài đặt Docker thành công.... -> Resp: Chúng ta đã cài đặt Docker thành công rồi! Bạn đã ...
+2026-04-24 12:13:13,207 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:13:13,208 - MemoryAgent - INFO - Final Managed Prompt Length: 165 chars
+2026-04-24 12:13:14,596 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:13:14,793 - BenchmarkSuite - INFO - [No Memory] Scenario: Episodic Recall | Turn: Bạn có nhớ hôm qua chúng ta đã làm gì không?... -> Resp: Tôi là một AI được thiết kế để lưu trữ thông tin t...
+2026-04-24 12:13:14,802 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:13:14,802 - MemoryAgent - INFO - Final Managed Prompt Length: 165 chars
+2026-04-24 12:13:17,172 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:13:17,377 - BenchmarkSuite - INFO - [With Memory] Scenario: Semantic Retrieval | Turn: Dự án X là về hệ thống quản lý kho.... -> Resp: Dự án X có thể liên quan đến việc xây dựng một hệ ...
+2026-04-24 12:13:17,377 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:13:17,378 - MemoryAgent - INFO - Final Managed Prompt Length: 1093 chars
+2026-04-24 12:13:20,305 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:13:20,502 - BenchmarkSuite - INFO - [With Memory] Scenario: Semantic Retrieval | Turn: Dự án Y là về thương mại điện tử.... -> Resp: Dự án Y về thương mại điện tử có thể liên quan đến...
+2026-04-24 12:13:20,502 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:13:20,503 - MemoryAgent - INFO - Final Managed Prompt Length: 2289 chars
+2026-04-24 12:13:21,305 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:13:21,503 - BenchmarkSuite - INFO - [With Memory] Scenario: Semantic Retrieval | Turn: Hệ thống quản lý kho thuộc dự án nào?... -> Resp: Hệ thống quản lý kho thuộc dự án X. Dự án X là về ...
+2026-04-24 12:13:21,511 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:13:21,512 - MemoryAgent - INFO - Final Managed Prompt Length: 165 chars
+2026-04-24 12:13:22,765 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:13:22,960 - BenchmarkSuite - INFO - [No Memory] Scenario: Semantic Retrieval | Turn: Dự án X là về hệ thống quản lý kho.... -> Resp: Bạn đang nói về dự án liên quan đến hệ thống quản ...
+2026-04-24 12:13:22,967 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:13:22,968 - MemoryAgent - INFO - Final Managed Prompt Length: 165 chars
+2026-04-24 12:13:33,347 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:13:33,549 - BenchmarkSuite - INFO - [No Memory] Scenario: Semantic Retrieval | Turn: Dự án Y là về thương mại điện tử.... -> Resp: Dự án Y về thương mại điện tử. Tôi có thể giúp bạn...
+2026-04-24 12:13:33,557 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:13:33,560 - MemoryAgent - INFO - Final Managed Prompt Length: 165 chars
+2026-04-24 12:13:38,040 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:13:38,236 - BenchmarkSuite - INFO - [No Memory] Scenario: Semantic Retrieval | Turn: Hệ thống quản lý kho thuộc dự án nào?... -> Resp: Tôi không tìm thấy thông tin liên quan đến dự án c...
+2026-04-24 12:13:38,245 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:13:38,245 - MemoryAgent - INFO - Final Managed Prompt Length: 165 chars
+2026-04-24 12:13:39,951 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:13:40,169 - BenchmarkSuite - INFO - [With Memory] Scenario: Token Efficiency (Context Window) | Turn: A A A A A A A A A A A A A A A A A A A A A A A A A ... -> Resp: It appears you've entered a string of repeated 'A'...
+2026-04-24 12:13:40,171 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:13:40,172 - MemoryAgent - INFO - Final Managed Prompt Length: 1404 chars
+2026-04-24 12:13:42,027 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:13:42,215 - BenchmarkSuite - INFO - [With Memory] Scenario: Token Efficiency (Context Window) | Turn: B B B B B B B B B B B B B B B B B B B B B B B B B ... -> Resp: It appears you've entered a string of repeated 'B'...
+2026-04-24 12:13:42,215 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:13:42,218 - MemoryAgent - INFO - Final Managed Prompt Length: 2806 chars
+2026-04-24 12:13:44,492 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:13:44,677 - BenchmarkSuite - INFO - [With Memory] Scenario: Token Efficiency (Context Window) | Turn: C C C C C C C C C C C C C C C C C C C C C C C C C ... -> Resp: It appears you've entered a string of repeated 'C'...
+2026-04-24 12:13:44,682 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:13:44,682 - MemoryAgent - INFO - Final Managed Prompt Length: 4440 chars
+2026-04-24 12:13:48,716 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:13:48,905 - BenchmarkSuite - INFO - [With Memory] Scenario: Token Efficiency (Context Window) | Turn: D D D D D D D D D D D D D D D D D D D D D D D D D ... -> Resp: It appears you've entered a string of repeated 'D'...
+2026-04-24 12:13:48,905 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:13:48,907 - MemoryAgent - INFO - Final Managed Prompt Length: 6565 chars
+2026-04-24 12:13:49,900 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:13:50,107 - BenchmarkSuite - INFO - [With Memory] Scenario: Token Efficiency (Context Window) | Turn: Nội dung tin nhắn đầu tiên là gì?... -> Resp: Nội dung tin nhắn đầu tiên của bạn là một chuỗi cá...
+2026-04-24 12:13:50,114 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:13:50,115 - MemoryAgent - INFO - Final Managed Prompt Length: 165 chars
+2026-04-24 12:13:50,583 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:13:50,785 - BenchmarkSuite - INFO - [No Memory] Scenario: Token Efficiency (Context Window) | Turn: A A A A A A A A A A A A A A A A A A A A A A A A A ... -> Resp: I can't answer that....
+2026-04-24 12:13:50,796 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:13:50,797 - MemoryAgent - INFO - Final Managed Prompt Length: 165 chars
+2026-04-24 12:13:51,940 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:13:52,145 - BenchmarkSuite - INFO - [No Memory] Scenario: Token Efficiency (Context Window) | Turn: B B B B B B B B B B B B B B B B B B B B B B B B B ... -> Resp: It seems you've entered a large amount of consecut...
+2026-04-24 12:13:52,151 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:13:52,153 - MemoryAgent - INFO - Final Managed Prompt Length: 165 chars
+2026-04-24 12:13:53,420 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:13:53,626 - BenchmarkSuite - INFO - [No Memory] Scenario: Token Efficiency (Context Window) | Turn: C C C C C C C C C C C C C C C C C C C C C C C C C ... -> Resp: It appears you have entered a large number of cons...
+2026-04-24 12:13:53,640 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:13:53,640 - MemoryAgent - INFO - Final Managed Prompt Length: 165 chars
+2026-04-24 12:13:54,842 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:13:55,049 - BenchmarkSuite - INFO - [No Memory] Scenario: Token Efficiency (Context Window) | Turn: D D D D D D D D D D D D D D D D D D D D D D D D D ... -> Resp: It appears you have entered a large number of D's....
+2026-04-24 12:13:55,057 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:13:55,057 - MemoryAgent - INFO - Final Managed Prompt Length: 165 chars
+2026-04-24 12:13:55,805 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:13:56,007 - BenchmarkSuite - INFO - [No Memory] Scenario: Token Efficiency (Context Window) | Turn: Nội dung tin nhắn đầu tiên là gì?... -> Resp: Tin nhắn đầu tiên trong cuộc trò chuyện này là "Nộ...
+2026-04-24 12:13:56,018 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:13:56,020 - MemoryAgent - INFO - Final Managed Prompt Length: 165 chars
+2026-04-24 12:13:58,046 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:13:58,232 - BenchmarkSuite - INFO - [With Memory] Scenario: Preference Consistency | Turn: Tôi thích dùng tab thay vì space.... -> Resp: Bạn muốn sử dụng tab thay vì khoảng trắng (space) ...
+2026-04-24 12:13:58,232 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:13:58,232 - MemoryAgent - INFO - Final Managed Prompt Length: 726 chars
+2026-04-24 12:14:00,437 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:14:00,677 - BenchmarkSuite - INFO - [With Memory] Scenario: Preference Consistency | Turn: Hãy viết cho tôi một hàm hello world.... -> Resp: Dưới đây là một hàm "Hello World" trong Python:
+
+`...
+2026-04-24 12:14:00,677 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:14:00,682 - MemoryAgent - INFO - Final Managed Prompt Length: 1291 chars
+2026-04-24 12:14:02,547 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:14:02,737 - BenchmarkSuite - INFO - [With Memory] Scenario: Preference Consistency | Turn: Bạn dùng tab hay space vậy?... -> Resp: Tôi sử dụng khoảng trắng (space) để phân cách nội ...
+2026-04-24 12:14:02,748 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:14:02,748 - MemoryAgent - INFO - Final Managed Prompt Length: 165 chars
+2026-04-24 12:14:03,740 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:14:03,953 - BenchmarkSuite - INFO - [No Memory] Scenario: Preference Consistency | Turn: Tôi thích dùng tab thay vì space.... -> Resp: Bạn thích sử dụng tab thay vì khoảng trắng để phân...
+2026-04-24 12:14:03,961 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:14:03,962 - MemoryAgent - INFO - Final Managed Prompt Length: 165 chars
+2026-04-24 12:14:05,342 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:14:05,546 - BenchmarkSuite - INFO - [No Memory] Scenario: Preference Consistency | Turn: Hãy viết cho tôi một hàm hello world.... -> Resp: Hàm "Hello World" là một trong những hàm cơ bản nh...
+2026-04-24 12:14:05,555 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:14:05,555 - MemoryAgent - INFO - Final Managed Prompt Length: 165 chars
+2026-04-24 12:14:06,902 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:14:07,111 - BenchmarkSuite - INFO - [No Memory] Scenario: Preference Consistency | Turn: Bạn dùng tab hay space vậy?... -> Resp: Tôi thường sử dụng cả tab và space để phân cách cá...
+2026-04-24 12:14:07,119 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:14:07,119 - MemoryAgent - INFO - Final Managed Prompt Length: 165 chars
+2026-04-24 12:14:09,553 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:14:09,748 - BenchmarkSuite - INFO - [With Memory] Scenario: Complex Reasoning with Memory | Turn: Tôi đang học LangGraph.... -> Resp: LangGraph là một framework được sử dụng trong nghi...
+2026-04-24 12:14:09,749 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:14:09,750 - MemoryAgent - INFO - Final Managed Prompt Length: 704 chars
+2026-04-24 12:14:17,449 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:14:17,703 - BenchmarkSuite - INFO - [With Memory] Scenario: Complex Reasoning with Memory | Turn: Tôi muốn tích hợp Redis vào LangGraph.... -> Resp: Tích hợp Redis vào LangGraph có thể giúp bạn cải t...
+2026-04-24 12:14:17,703 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:14:17,705 - MemoryAgent - INFO - Final Managed Prompt Length: 3042 chars
+2026-04-24 12:14:24,620 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:14:24,827 - BenchmarkSuite - INFO - [With Memory] Scenario: Complex Reasoning with Memory | Turn: Theo bạn bước tiếp theo tôi nên làm gì?... -> Resp: Bước tiếp theo bạn nên làm sau khi đã tích hợp Red...
+2026-04-24 12:14:24,832 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:14:24,836 - MemoryAgent - INFO - Final Managed Prompt Length: 165 chars
+2026-04-24 12:14:25,902 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:14:26,115 - BenchmarkSuite - INFO - [No Memory] Scenario: Complex Reasoning with Memory | Turn: Tôi đang học LangGraph.... -> Resp: LangGraph là một mô hình ngôn ngữ được sử dụng tro...
+2026-04-24 12:14:26,123 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:14:26,123 - MemoryAgent - INFO - Final Managed Prompt Length: 165 chars
+2026-04-24 12:14:30,789 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:14:31,076 - BenchmarkSuite - INFO - [No Memory] Scenario: Complex Reasoning with Memory | Turn: Tôi muốn tích hợp Redis vào LangGraph.... -> Resp: Để tích hợp Redis vào LangGraph, bạn có thể thực h...
+2026-04-24 12:14:31,089 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:14:31,089 - MemoryAgent - INFO - Final Managed Prompt Length: 165 chars
+2026-04-24 12:14:31,895 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:14:32,183 - BenchmarkSuite - INFO - [No Memory] Scenario: Complex Reasoning with Memory | Turn: Theo bạn bước tiếp theo tôi nên làm gì?... -> Resp: Để biết bước tiếp theo bạn nên làm gì, tôi cần biế...
+2026-04-24 12:14:32,193 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:14:32,195 - MemoryAgent - INFO - Final Managed Prompt Length: 165 chars
+2026-04-24 12:14:32,890 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:14:33,165 - BenchmarkSuite - INFO - [With Memory] Scenario: Multi-turn Fact Accumulation | Turn: Tôi sống ở Hà Nội.... -> Resp: Hà Nội là một thành phố tuyệt đẹp! Bạn có muốn biế...
+2026-04-24 12:14:33,165 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:14:33,165 - MemoryAgent - INFO - Final Managed Prompt Length: 331 chars
+2026-04-24 12:14:34,277 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:14:34,559 - BenchmarkSuite - INFO - [With Memory] Scenario: Multi-turn Fact Accumulation | Turn: Hà Nội đang là mùa thu.... -> Resp: Mùa thu ở Hà Nội thật tuyệt vời! Thời tiết trong n...
+2026-04-24 12:14:34,560 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:14:34,561 - MemoryAgent - INFO - Final Managed Prompt Length: 760 chars
+2026-04-24 12:14:36,400 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:14:36,663 - BenchmarkSuite - INFO - [With Memory] Scenario: Multi-turn Fact Accumulation | Turn: Thời tiết nơi tôi sống thường như thế nào vào mùa ... -> Resp: Vào mùa thu ở Hà Nội, thời tiết thường rất đẹp và ...
+2026-04-24 12:14:36,675 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:14:36,675 - MemoryAgent - INFO - Final Managed Prompt Length: 165 chars
+2026-04-24 12:14:37,297 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:14:37,590 - BenchmarkSuite - INFO - [No Memory] Scenario: Multi-turn Fact Accumulation | Turn: Tôi sống ở Hà Nội.... -> Resp: Hà Nội là một thành phố tuyệt đẹp. Bạn có muốn biế...
+2026-04-24 12:14:37,601 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:14:37,602 - MemoryAgent - INFO - Final Managed Prompt Length: 165 chars
+2026-04-24 12:14:39,346 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:14:39,540 - BenchmarkSuite - INFO - [No Memory] Scenario: Multi-turn Fact Accumulation | Turn: Hà Nội đang là mùa thu.... -> Resp: Mùa thu ở Hà Nội thường rất đẹp và lãng mạn. Thời ...
+2026-04-24 12:14:39,549 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:14:39,552 - MemoryAgent - INFO - Final Managed Prompt Length: 165 chars
+2026-04-24 12:14:40,585 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:14:40,809 - BenchmarkSuite - INFO - [No Memory] Scenario: Multi-turn Fact Accumulation | Turn: Thời tiết nơi tôi sống thường như thế nào vào mùa ... -> Resp: Để trả lời câu hỏi của bạn, tôi cần biết thêm thôn...
+2026-04-24 12:14:40,817 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:14:40,818 - MemoryAgent - INFO - Final Managed Prompt Length: 165 chars
+2026-04-24 12:14:41,509 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:14:41,712 - BenchmarkSuite - INFO - [With Memory] Scenario: User Identity Validation | Turn: Mã số nhân viên của tôi là NV123.... -> Resp: Mã số nhân viên NV123 của bạn đã được lưu trong hệ...
+2026-04-24 12:14:41,713 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:14:41,714 - MemoryAgent - INFO - Final Managed Prompt Length: 349 chars
+2026-04-24 12:14:42,644 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:14:42,859 - BenchmarkSuite - INFO - [With Memory] Scenario: User Identity Validation | Turn: Tôi làm việc ở phòng IT.... -> Resp: Phòng IT là nơi bạn làm việc. Với mã số nhân viên ...
+2026-04-24 12:14:42,861 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:14:42,861 - MemoryAgent - INFO - Final Managed Prompt Length: 625 chars
+2026-04-24 12:14:43,916 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:14:44,128 - BenchmarkSuite - INFO - [With Memory] Scenario: User Identity Validation | Turn: Ai là người ở phòng IT có mã NV123?... -> Resp: Mã số nhân viên NV123 thuộc về bạn. Tôi đã lưu thô...
+2026-04-24 12:14:44,136 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:14:44,136 - MemoryAgent - INFO - Final Managed Prompt Length: 165 chars
+2026-04-24 12:14:45,290 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:14:45,487 - BenchmarkSuite - INFO - [No Memory] Scenario: User Identity Validation | Turn: Mã số nhân viên của tôi là NV123.... -> Resp: Tôi không có thông tin về mã số nhân viên cụ thể c...
+2026-04-24 12:14:45,497 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:14:45,497 - MemoryAgent - INFO - Final Managed Prompt Length: 165 chars
+2026-04-24 12:14:46,903 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:14:47,130 - BenchmarkSuite - INFO - [No Memory] Scenario: User Identity Validation | Turn: Tôi làm việc ở phòng IT.... -> Resp: Bạn làm việc ở phòng IT, đó là một vị trí thú vị. ...
+2026-04-24 12:14:47,140 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:14:47,140 - MemoryAgent - INFO - Final Managed Prompt Length: 165 chars
+2026-04-24 12:14:48,025 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:14:48,225 - BenchmarkSuite - INFO - [No Memory] Scenario: User Identity Validation | Turn: Ai là người ở phòng IT có mã NV123?... -> Resp: Tôi không có thông tin cụ thể về người nào ở phòng...
+2026-04-24 12:14:48,232 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:14:48,233 - MemoryAgent - INFO - Final Managed Prompt Length: 165 chars
+2026-04-24 12:14:51,813 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:14:52,018 - BenchmarkSuite - INFO - [With Memory] Scenario: Long-term Goal Tracking | Turn: Mục tiêu của tôi là trở thành AI Engineer.... -> Resp: Một mục tiêu tuyệt vời! Để trở thành AI Engineer, ...
+2026-04-24 12:14:52,019 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:14:52,020 - MemoryAgent - INFO - Final Managed Prompt Length: 1387 chars
+2026-04-24 12:14:56,248 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:14:56,458 - BenchmarkSuite - INFO - [With Memory] Scenario: Long-term Goal Tracking | Turn: Tháng này tôi học về RAG.... -> Resp: RAG (Rapidly-Adaptable Generator) là một mô hình h...
+2026-04-24 12:14:56,459 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:14:56,460 - MemoryAgent - INFO - Final Managed Prompt Length: 2832 chars
+2026-04-24 12:15:04,419 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:15:04,621 - BenchmarkSuite - INFO - [With Memory] Scenario: Long-term Goal Tracking | Turn: Học RAG giúp gì cho mục tiêu của tôi?... -> Resp: Học RAG (Rapidly-Adaptable Generator) có thể giúp ...
+2026-04-24 12:15:04,629 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:15:04,629 - MemoryAgent - INFO - Final Managed Prompt Length: 165 chars
+2026-04-24 12:15:08,582 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:15:08,782 - BenchmarkSuite - INFO - [No Memory] Scenario: Long-term Goal Tracking | Turn: Mục tiêu của tôi là trở thành AI Engineer.... -> Resp: Một mục tiêu tuyệt vời! Để trở thành một AI Engine...
+2026-04-24 12:15:08,790 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:15:08,790 - MemoryAgent - INFO - Final Managed Prompt Length: 165 chars
+2026-04-24 12:15:10,899 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:15:11,126 - BenchmarkSuite - INFO - [No Memory] Scenario: Long-term Goal Tracking | Turn: Tháng này tôi học về RAG.... -> Resp: RAG (Reactive Attachment Gà) là một khái niệm tron...
+2026-04-24 12:15:11,136 - MemoryAgent - INFO - Retrieved Context: Profile Keys=[], Semantic Hits=0, Episodes=0
+2026-04-24 12:15:11,137 - MemoryAgent - INFO - Final Managed Prompt Length: 165 chars
+2026-04-24 12:15:15,098 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 12:15:15,307 - BenchmarkSuite - INFO - [No Memory] Scenario: Long-term Goal Tracking | Turn: Học RAG giúp gì cho mục tiêu của tôi?... -> Resp: RAG (Red, Amber, Green) là một phương pháp quản lý...
+2026-04-24 12:15:15,307 - BenchmarkRunner - INFO - Generating Reports...
+2026-04-24 12:15:15,307 - BenchmarkRunner - INFO - Done! Check report.md, BENCHMARK.md and logs/debug_20260424_121247.log

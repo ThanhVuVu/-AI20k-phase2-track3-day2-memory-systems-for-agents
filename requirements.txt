@@ -5,3 +5,9 @@ pandas>=2.2
 python-dotenv>=1.0
 datasets>=3.0
 openai>=1.0.0
+langgraph
+langchain
+langchain-openai
+redis
+chromadb
+tiktoken

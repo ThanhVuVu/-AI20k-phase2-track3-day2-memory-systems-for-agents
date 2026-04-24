@@ -1,0 +1,49 @@
+[
+    {
+        "name": "Profile Recall",
+        "turns": ["Tên tôi là Thanh Vũ.", "Sở thích của tôi là lập trình.", "Bạn nhớ tên tôi là gì không?"]
+    },
+    {
+        "name": "Conflict Update",
+        "turns": ["Tôi dị ứng sữa bò.", "À nhầm, tôi dị ứng đậu nành chứ không phải sữa bò.", "Tôi bị dị ứng với cái gì?"]
+    },
+    {
+        "name": "Episodic Recall",
+        "turns": [
+            "Hôm qua chúng ta đã cài đặt Docker thành công.", 
+            "Bạn có nhớ hôm qua chúng ta đã làm gì không?"
+        ]
+    },
+    {
+        "name": "Semantic Retrieval",
+        "turns": [
+            "Dự án X là về hệ thống quản lý kho.", 
+            "Dự án Y là về thương mại điện tử.",
+            "Hệ thống quản lý kho thuộc dự án nào?"
+        ]
+    },
+    {
+        "name": "Token Efficiency (Context Window)",
+        "turns": ["A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A ", "B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B ", "C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C ", "D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D ", "Nội dung tin nhắn đầu tiên là gì?"]
+    },
+    {
+        "name": "Preference Consistency",
+        "turns": ["Tôi thích dùng tab thay vì space.", "Hãy viết cho tôi một hàm hello world.", "Bạn dùng tab hay space vậy?"]
+    },
+    {
+        "name": "Complex Reasoning with Memory",
+        "turns": ["Tôi đang học LangGraph.", "Tôi muốn tích hợp Redis vào LangGraph.", "Theo bạn bước tiếp theo tôi nên làm gì?"]
+    },
+    {
+        "name": "Multi-turn Fact Accumulation",
+        "turns": ["Tôi sống ở Hà Nội.", "Hà Nội đang là mùa thu.", "Thời tiết nơi tôi sống thường như thế nào vào mùa này?"]
+    },
+    {
+        "name": "User Identity Validation",
+        "turns": ["Mã số nhân viên của tôi là NV123.", "Tôi làm việc ở phòng IT.", "Ai là người ở phòng IT có mã NV123?"]
+    },
+    {
+        "name": "Long-term Goal Tracking",
+        "turns": ["Mục tiêu của tôi là trở thành AI Engineer.", "Tháng này tôi học về RAG.", "Học RAG giúp gì cho mục tiêu của tôi?"]
+    }
+]
